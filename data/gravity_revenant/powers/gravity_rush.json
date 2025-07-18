@@ -1,0 +1,26 @@
+{
+    "name": "Gravity Rush",
+    "description": "under high intesity gravity training your body got stronger",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "multiply_total",
+        "value": 2.5,
+        "name": "Extra Damage attack damage"
+    },
+    "modifiers": [
+        {
+            "attribute": "minecraft:generic.attack_speed",
+            "operation": "multiply_total",
+            "value": 2.5,
+            "name": "Extra Speed attack speed"
+        },
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "multiply_total",
+            "value": 10,
+            "name": "Exra Movement movement speed"
+        }
+    ],
+    "update_health": true
+}

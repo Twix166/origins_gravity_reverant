@@ -1,0 +1,9 @@
+{
+  "type": "origins:attribute",
+  "description": "Maximum health reduced to 8 hearts.",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "addition",
+    "value": -4.0
+  }
+}
